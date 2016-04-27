@@ -1,0 +1,19 @@
+package api
+
+type Conf struct {
+	APIKey            string
+	TwilioPhonenumber string
+	TwilioSID         string
+	TwilioToken       string
+	IFTTTPhonenumber  string
+}
+
+var (
+	conf = Conf{
+		APIKey:            "XXXXXXXXXXXX",
+		TwilioPhonenumber: "+18885555555",
+		TwilioSID:         "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		TwilioToken:       "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+		IFTTTPhonenumber:  "+18886666666",
+	}
+)
